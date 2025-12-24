@@ -16,3 +16,7 @@ Dataset: (https://www.kaggle.com/datasets/kurniatilaelimunifah/prsa-data-aotizho
 Pastikan Python sudah terinstal di sistem Anda, kemudian instal library yang diperlukan secara manual:
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn
+
+## Menjalankan Preprocessing (CLI)
+```bash
+python Preprocessing/automate_Muhammad-Ilham.py --input PRSA_Data_Aotizhongxin_raw/PRSA_Data_Aotizhongxin.csv --output_dir rain_preprocessed/
